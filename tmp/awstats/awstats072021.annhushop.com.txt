@@ -1,0 +1,587 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202107 will be lost/reset.
+# Last config file used to build this data file was /home/xlkamugl/tmp/awstats/awstats.annhushop.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2010                
+POS_TIME 2693                
+POS_VISITOR 11529               
+POS_DAY 16910               
+POS_DOMAIN 3655                
+POS_LOGIN 4101                
+POS_ROBOT 4256                
+POS_WORMS 4754                
+POS_EMAILSENDER 4885                
+POS_EMAILRECEIVER 5028                
+POS_SESSION 17767               
+POS_SIDER 17977               
+POS_FILETYPES 5163                
+POS_DOWNLOADS 5456                
+POS_OS 5504                
+POS_BROWSER 5740                
+POS_SCREENSIZE 6617                
+POS_UNKNOWNREFERER 6691                
+POS_UNKNOWNREFERERBROWSER 6940                
+POS_ORIGIN 7161                
+POS_SEREFERRALS 7301                
+POS_PAGEREFS 7464                
+POS_SEARCHWORDS 7612                
+POS_KEYWORDS 7764                
+POS_MISC 2356                
+POS_ERRORS 7823                
+POS_CLUSTER 3957                
+POS_SIDER_404 7990                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210801000917 337 78173 15367640648215
+FirstTime 20210701000124
+LastTime 20210731235259
+LastUpdate 20210801132836 337 0 336 0 0
+TotalVisits 275                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 136                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 23 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 184 184 713120 210 218 13949131
+1 144 144 232203 140 165 11631735
+2 155 155 231007 153 190 12374042
+3 155 184 1089575 184 219 11611703
+4 203 205 2353423 201 212 12264798
+5 188 189 1347110 162 173 13029656
+6 163 213 2332509 165 175 12333425
+7 152 222 3780178 178 191 12561632
+8 158 163 540449 180 205 12212946
+9 144 144 89531 140 163 12125152
+10 161 161 89533 159 167 12533653
+11 202 426 15454986 164 183 13001570
+12 183 317 11476157 156 178 12422625
+13 163 170 1003076 179 191 11536331
+14 157 157 89531 193 201 12507694
+15 222 222 2252901 168 179 13494814
+16 125 125 0 161 177 10274934
+17 140 140 449380 133 144 10890674
+18 367 367 2003813 162 227 14290643
+19 152 152 497862 147 173 12308143
+20 167 167 447665 194 206 13182596
+21 157 157 179064 168 198 13902015
+22 139 139 268593 190 194 10934654
+23 188 261 6663270 179 208 14419562
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 16
+ru 3717 3717 358124
+us 371 445 20465485
+vn 51 497 25484622
+ca 7 7 623587
+gb 6 81 5527560
+in 4 4 89531
+fr 2 2 179062
+cn 2 2 179084
+ua 2 2 91256
+se 1 1 89533
+pl 1 1 89533
+lt 1 1 89531
+id 1 1 49417
+hk 1 1 89549
+sg 1 1 89531
+ch 1 1 89531
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+AhrefsBot/ 3465 277751020 20210731235258 28
+Googlebot/ 201 5565379 20210729004226 16
+bingpreview 126 3835257 20210731182703 0
+bingbot/ 89 4464007 20210731182654 20
+YandexBot/ 28 1076196 20210731144628 16
+Googlebot\-Image/ 11 120762 20210707003538 0
+unknown 5 565 20210728033029 5
+facebookexternalhit/ 5 11270 20210731184830 2
+no_user_agent 3 179066 20210728232622 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+woff 2 15232 0 0
+html 194 15558436 0 0
+php 3960 3123112 0 0
+jpg 169 15663436 0 0
+svg 1 1521 0 0
+css 121 5021191 0 0
+js 237 6448052 0 0
+png 60 5889543 0 0
+Unknown 5 1162271 0 0
+xml 1 1045 0 0
+woff2 7 340680 0 0
+jpeg 7 360417 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+macosx10 1 1
+win10 638 296
+linuxandroid 121 17
+macosx8 1 1
+win8.1 32 30
+winme 1 1
+winnt 2 2
+Unknown 3790 3717
+win7 2 2
+macosx12 2 2
+macosx 36 36
+linux 135 61
+macosx9 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 38
+chrome83.0.4103.7 1 1
+chrome91.0.4472.124 315 30
+chrome75.0.3770.100 3 3
+chrome78.0.3904.108 225 225
+chrome46.0.2490.80 1 1
+firefox89.0 2 2
+firefox51.0 2 0
+firefox67.0 1 1
+chrome88.0.4240.193 4 4
+opera8.62 1 1
+chrome72.0.3626.119 2 2
+chrome76.0.3809.132 1 1
+chrome49.0.2623.75 2 1
+mozilla 78 5
+chrome78.0.3904.87 4 4
+chrome26.0.1410.65 1 1
+chrome91.0.4472.114 18 18
+chrome71.0.3578.98 3 3
+chrome45.0.2454.94 2 2
+chrome83.0.4103.97 46 44
+firefox64.0 1 1
+firefox72.0 6 6
+firefox81.0 29 29
+firefox59.0 1 1
+firefox68.0 2 2
+chrome35.0.1916.47 3 3
+chrome91.0.4472.77 3 3
+Unknown 3715 3715
+chrome60.0.3112.90 27 27
+chrome76.0.3809.100 2 2
+chrome92.0.4515.107 78 5
+chrome91.0.4472.164 59 4
+chrome90.0.4430.93 2 2
+chrome91.0.4472.120 118 14
+chrome84.0.4147.105 2 2
+chrome90.0.4430.212 1 1
+opera32.0.1948.45 2 2
+chrome91.0.4472.101 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+WordPress/5.8;_http://Annhushop.com 20210731235259
+WordPress/5.7.2;_http://Annhushop.com 20210721001006
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210713235607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+WordPress/5.8;_http://Annhushop.com 20210731235259
+WordPress/5.7.2;_http://Annhushop.com 20210721001006
+ZaloPC-win32-24v423 20210707131007
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 186 189
+From1 0 0
+From2 6 6
+From3 0 0
+From4 3977 4569
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+404 107 5054955
+503 1 0
+302 2 0
+401 1 208
+405 3 126
+403 397 382057
+301 40 0
+206 30 1353260
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 66
+/ 14 -
+/cua-hang/page/66/+84976082062 1 -
+/+84976082062 1 https://www.google.com
+/backup/wp-admin/install.php 2 -
+/.env 1 -
+/cache/wp-plugins.php 1 http://simplesite.com
+/wp.php 1 http://simplesite.com
+/1.php 1 http://simplesite.com
+/lien-ket/thiet-ke/noi-that 4 -
+/danh-muc-san-pham/do-choi/page/7/+84976082062 1 -
+/new/wp-admin/install.php 2 -
+/wp-content/plugins/redirection/models/wp-contentt.php 1 http://simplesite.com
+/danh-muc-san-pham/do-choi/page/6/+84976082062 1 -
+/danh-muc-san-pham/do-choi/page/13/+84976082062 1 -
+/danh-muc-san-pham/do-choi/page/14/+84976082062 1 -
+/tu-khoa-san-pham/8-lo%CC%83/ 2 -
+/assets/images/wp-plugins.php 1 http://simplesite.com
+/tu-khoa-san-pham/caphechatluongcao/+84976082062 1 -
+/test/wp-admin/install.php 2 -
+/wp-configer.php 1 http://simplesite.com
+/danh-muc-san-pham/phu-kien-xe-may-xe-dap/page/2/+84976082062 1 -
+/1index.php 1 http://simplesite.com
+/cms/wp-admin/install.php 2 -
+/tu-khoa-san-pham/caphechatluongcao/ 1 -
+/wp-blog.php 1 http://simplesite.com
+/blog/wp-admin/install.php 2 -
+/wp-content/plugins/wordfence/modules/login-security/classes/model/wp-pingg.php 1 http://simplesite.com
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tro-choi-dam-hai-tac/+84976082062 1 -
+/danh-muc-san-pham/do-choi/page/5/+84976082062 1 -
+/admin/controller/extension/module/opheadar.php 3 http://simplesite.com
+/wp-content/plugins/masterx/shx.php 1 http://simplesite.com
+/wp-admin/code87/5.php 1 http://simplesite.com
+/wordpress/wp-content/plugins/523453244/mini.php 1 http://simplesite.com
+/wp-includes/js/fsdfsdffsdsdf.js 1 -
+/wp-logins.php 1 http://simplesite.com
+/lien-ket/thiet-ke/xay-dung 3 -
+/cua-hang/page/16/+84976082062 1 -
+/old/wp-admin/install.php 2 -
+/assets/images/doc.php 1 http://simplesite.com
+/wp-content/plugins/wp-user-avatar/readme.txt 1 -
+/wp-content/plugins/gatewayapi/inc/security_two_factor.php 1 http://simplesite.com
+/wordpress/wp-admin/install.php 2 -
+/web/wp-admin/install.php 2 -
+/cua-hang/page/67/+84976082062 1 -
+/wp-content/themes/distance-lite/languages/namespaces.php 1 http://simplesite.com
+/wp/wp-admin/install.php 2 -
+/wp-content/wp-info.php 1 http://simplesite.com
+/doc.php/404.php 1 http://simplesite.com
+/site/wp-admin/install.php 2 -
+/wordpress/wp-content/plugins/masterx/shx.php 1 http://simplesite.com
+/danh-muc-san-pham/do-choi/page/15/+84976082062 1 -
+/tu-khoa-san-pham/lightning/ 2 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tro-choi-rubiz-hat-dau/+84976082062 1 -
+/wp-content/themes/plaintext/includes/custom-header.php 1 http://simplesite.com
+/wp-content/uploads/2021/02/Ca%CC%80-Phe-Nguyen-Cha%CC%81t-600x800.jpg 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/gia-do-dt-kim-loai-lm-707-s014/+84976082062 1 -
+/wp-admin/user/user-profile.php 1 http://simplesite.com
+/oldsite/wp-admin/install.php 2 -
+/wp-content/themes/greensblog/template-parts/simple.php 2 http://simplesite.com
+/s%E1%BA%A3n%20ph%E1%BA%A9m/do-choi-thu-danh-trong-van-cot-size-lon-cao-15cm/+84976082062 1 -
+/xmlrpc.php 5 -
+/wp-content/plugins/background-image-cropper/content-post.php 2 http://simplesite.com
+/ads.txt 3 -
+/danh-muc-san-pham/do-choi/page/12/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dan-piano-organ-lq3798-co-mic/+84976082062 1 -
+/wp-content/plugins/background-image-cropper/doc.php 1 http://simplesite.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 136
+185.215.199.29 3713 3713 0 20210731235259
+40.121.249.122 210 210 1735218 20210723181921
+222.254.170.27 32 301 15092962 20210721130749
+144.217.135.178 17 17 1455264 20210702112851
+149.56.150.102 12 12 999287 20210713235534
+123.21.248.157 11 86 3783429 20210715081032
+157.55.200.91 8 8 142117 20210704155544
+104.43.233.222 7 7 141072 20210704152850
+192.99.18.136 6 6 534054 20210722002148
+123.21.68.155 5 78 5681374 20210731124336
+54.189.230.128 4 75 5444835 20210709115041
+51.91.218.48 4 77 5484899 20210713235607
+113.185.79.224 3 32 926857 20210701030407
+52.41.139.173 2 2 179066 20210702081152
+173.245.202.31 2 2 179062 20210730110644
+23.92.127.41 2 2 139198 20210707013907
+205.185.209.76 2 2 179062 20210731190642
+185.147.213.44 2 2 179062 20210731181141
+54.70.182.50 2 2 179066 20210702075928
+194.34.132.59 2 2 17361 20210719041156
+137.117.70.183 2 2 50205 20210718195706
+185.147.213.80 2 2 179062 20210730110309
+209.107.216.105 2 2 179062 20210727174442
+40.122.127.129 2 2 50205 20210719021905
+209.107.196.154 2 2 179062 20210731130620
+34.254.243.60 1 1 89533 20210702150834
+54.187.123.5 1 1 89531 20210729043712
+63.34.22.40 1 1 89531 20210721150625
+34.221.46.110 1 1 89533 20210701203410
+54.244.165.81 1 1 89531 20210723040921
+34.222.127.222 1 1 89533 20210711042045
+66.102.6.117 0 1 4119 
+34.220.133.14 1 1 89531 20210724041436
+52.209.247.107 1 1 89533 20210713150851
+54.90.83.165 1 1 89533 20210719024726
+67.227.77.174 1 1 89533 20210703120549
+34.220.177.23 1 1 89531 20210731051429
+52.50.148.194 1 1 89531 20210726150627
+34.222.154.95 1 1 89531 20210725055721
+54.214.156.215 1 1 89533 20210714043623
+34.251.124.10 1 1 89533 20210709150823
+54.187.233.204 1 1 89531 20210722041734
+34.243.104.236 1 1 89533 20210712150738
+52.41.96.173 1 1 89533 20210711042113
+18.237.13.218 1 2 93650 20210729043214
+34.221.89.73 1 1 89531 20210729042859
+195.225.118.58 1 1 89531 20210731224104
+54.202.97.64 1 1 89531 20210723041922
+94.158.245.33 1 1 89533 20210701154022
+34.240.217.254 1 1 89533 20210716150717
+52.13.47.215 1 1 89531 20210726044157
+34.222.170.104 1 1 89531 20210728042137
+34.254.98.100 1 1 89533 20210714152354
+34.220.211.101 1 1 89533 20210720083444
+35.165.89.132 0 1 4119 
+104.222.43.40 1 1 89531 20210721143633
+54.74.86.91 1 1 89533 20210701150908
+44.192.78.194 1 1 89533 20210719005941
+52.88.118.50 1 1 89531 20210725055800
+54.213.205.202 1 1 89531 20210725055258
+34.213.67.55 1 1 89533 20210703043241
+198.23.171.76 1 1 89533 20210707204713
+63.32.106.12 1 1 89531 20210728150734
+52.210.219.229 1 1 89533 20210719150738
+140.213.25.235 1 1 49417 20210731061503
+54.188.93.216 1 1 89533 20210717042117
+52.27.53.200 1 1 89531 20210725054156
+34.220.76.193 1 1 89533 20210706044003
+213.166.92.141 0 2 25300 
+34.212.135.11 1 1 89531 20210725194542
+54.186.48.43 1 1 89531 20210725054236
+52.89.58.101 1 1 89531 20210726045252
+52.32.225.6 1 1 89533 20210708133734
+91.207.219.158 1 1 1725 20210726175401
+34.220.43.27 1 1 89533 20210710050644
+52.39.134.140 1 1 89533 20210712044009
+54.244.202.37 1 1 89533 20210703043312
+34.217.55.239 1 1 89533 20210708132944
+45.129.18.56 1 1 0 20210714112454
+54.202.73.40 1 1 89531 20210726045653
+172.68.144.33 1 1 71568 20210720115536
+137.74.24.99 1 1 89549 20210731065545
+18.217.123.27 1 1 89531 20210725191722
+34.216.186.83 1 1 89533 20210710054534
+18.202.58.27 1 1 1736 20210711014909
+193.26.13.70 1 1 89531 20210722091725
+34.219.8.2 1 1 89533 20210720083444
+54.171.193.114 1 1 89533 20210720150734
+54.74.224.173 2 2 1232662 20210710112445
+45.129.18.237 1 1 0 20210703133632
+54.202.206.116 1 1 89531 20210726043327
+47.242.251.197 1 1 89533 20210717063734
+205.185.214.59 1 1 89531 20210730171006
+52.10.107.248 1 1 89531 20210723041417
+34.251.99.60 1 1 89533 20210720014850
+45.129.18.34 1 1 0 20210722202242
+192.241.166.157 1 1 89533 20210706102005
+34.241.134.122 1 1 89533 20210706150742
+209.107.216.186 2 2 179062 20210730174515
+172.241.170.220 1 1 73187 20210728033030
+185.25.48.30 1 1 89531 20210722045333
+54.186.184.68 1 1 89531 20210729052710
+54.170.109.178 1 1 89531 20210727150744
+194.68.44.127 1 1 89533 20210711180157
+54.190.43.79 1 1 89531 20210729052916
+116.203.193.157 1 1 89531 20210729034833
+3.250.236.26 1 1 89533 20210707150832
+34.255.200.91 1 1 89531 20210722150633
+52.26.204.233 2 2 179062 20210724041423
+34.244.122.36 1 1 89531 20210723150609
+5.135.178.77 1 1 89531 20210729044916
+18.236.200.150 1 1 89533 20210714042419
+111.7.100.23 2 2 179084 20210716235021
+206.62.175.235 1 1 49417 20210731061508
+18.216.143.61 1 1 89533 20210711192321
+34.251.11.209 1 1 89533 20210715150633
+3.250.169.45 1 1 89533 20210708150819
+54.154.187.90 1 1 89533 20210715003548
+66.102.6.119 1 1 89531 20210731055749
+52.11.220.175 1 1 89531 20210725055642
+205.185.222.202 2 2 179062 20210731134632
+34.240.146.125 1 1 89533 20210711082933
+62.210.88.24 1 1 89531 20210722225942
+3.236.188.20 1 1 89533 20210704210610
+34.244.156.177 1 1 89533 20210705150834
+52.39.68.227 1 1 89533 20210701204912
+3.87.23.60 1 1 89531 20210725053400
+34.209.37.237 1 1 89533 20210702081249
+3.250.224.75 1 1 89531 20210730150628
+3.249.248.22 1 1 1736 20210704014028
+173.245.202.131 1 1 89531 20210726225113
+54.217.34.248 1 1 89533 20210711024056
+54.75.65.80 1 1 89533 20210708051126
+34.244.144.238 1 1 1736 20210718022642
+103.253.25.161 1 1 89531 20210731212505
+64.246.165.190 1 1 89551 20210703054527
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210701 370 399 1464055 13
+20210702 335 335 1813396 10
+20210703 92 92 358150 10
+20210704 185 187 399758 6
+20210705 155 155 89533 5
+20210706 120 120 268599 8
+20210707 148 362 12933127 8
+20210708 140 140 358132 8
+20210709 79 150 5534368 8
+20210710 95 95 1411728 8
+20210711 166 166 538934 9
+20210712 60 60 179066 10
+20210713 49 122 6573719 10
+20210714 166 166 268599 7
+20210715 237 312 3962495 4
+20210716 215 215 268617 4
+20210717 170 170 179066 4
+20210718 228 228 51941 4
+20210719 197 197 336165 6
+20210720 185 235 2484293 8
+20210721 72 77 602568 10
+20210722 33 33 981709 17
+20210723 251 251 2093342 16
+20210724 35 36 272712 9
+20210725 31 31 805779 16
+20210726 15 15 538911 12
+20210727 7 7 268593 6
+20210728 10 10 252249 9
+20210729 49 50 630836 9
+20210730 102 102 716248 8
+20210731 172 246 6948248 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 65
+5mn-15mn 5
+30mn-1h 15
+0s-30s 172
+15mn-30mn 10
+2mn-5mn 3
+30s-2mn 5
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/wp-cron.php 3702 0 139 138
+/wp-login.php 208 1637131 2 3
+/ 166 13671575 125 117
+/wp-admin/admin-ajax.php 30 582 0 6
+/xmlrpc.php 17 7932 2 2
+/danh-muc-san-pham/ban-chai-kem-danh-rang/ 9 785851 0 0
+/wp-content/themes/mts_ecommerce/fonts/fontawesome-webfont.woff2 7 340680 1 1
+/blog/ 3 166141 0 1
+/danh-muc-san-pham/may-xong/ 3 222099 0 0
+/feed/ 3 5208 3 3
+/wp-json/wc-analytics/admin/notes 2 19105 0 0
+/lien-he/ 2 110824 0 0
+/thanh-toan/ 2 144336 0 0
+/cua-hang/ 2 146374 1 1
+/wp-json 1 1143129 0 1
+/s%E1%BA%A3n%20ph%E1%BA%A9m/may-xong-tinh-dau-den-ngu-mat-trang-co-de/ 1 87910 0 0
+/wp-json/wp/v2/posts/ 1 1725 1 1
+/danh-muc-san-pham/loa-may-tinh/ 1 71568 1 1
+/wp-admin/load-styles.php 1 537889 0 0
+/wp-includes/wlwmanifest.xml 1 1045 0 0
+/wp-json/wc-admin/options 1 35 0 0
+/wp-json/wp/v2/ 1 144825 0 0
+/wp-json/jetpack/v4/jitm 1 2 0 0
+/wp-content/plugins/jetpack/_inc/fonts/jetpack/jetpack.woff 1 1056 0 0
+/wp-admin/admin.php 1 938455 0 0
+/wp-content/plugins/woocommerce/assets/fonts/WooCommerce.woff 1 14176 0 0
+/wp-admin/load-scripts.php 1 1123 0 0
+END_SIDER

@@ -1,0 +1,9 @@
+cgi-bin=/home/xlkamugl/public_html/cgi-bin
+400.shtml=/home/xlkamugl/public_html/400.shtml
+413.shtml=/home/xlkamugl/public_html/413.shtml
+default.html=/home/xlkamugl/public_html/default.html
+500.shtml=/home/xlkamugl/public_html/500.shtml
+401.shtml=/home/xlkamugl/public_html/401.shtml
+403.shtml=/home/xlkamugl/public_html/403.shtml
+cp_errordocument.shtml=/home/xlkamugl/public_html/cp_errordocument.shtml
+404.shtml=/home/xlkamugl/public_html/404.shtml

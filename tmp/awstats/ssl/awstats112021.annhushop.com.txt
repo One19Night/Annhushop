@@ -1,0 +1,433 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202111 will be lost/reset.
+# Last config file used to build this data file was /home/xlkamugl/tmp/awstats/ssl/awstats.annhushop.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2698                
+POS_VISITOR 11544               
+POS_DAY 13639               
+POS_DOMAIN 3602                
+POS_LOGIN 3896                
+POS_ROBOT 4051                
+POS_WORMS 4535                
+POS_EMAILSENDER 4666                
+POS_EMAILRECEIVER 4809                
+POS_SESSION 14244               
+POS_SIDER 14430               
+POS_FILETYPES 4944                
+POS_DOWNLOADS 5230                
+POS_OS 5278                
+POS_BROWSER 5439                
+POS_SCREENSIZE 5728                
+POS_UNKNOWNREFERER 5802                
+POS_UNKNOWNREFERERBROWSER 6103                
+POS_ORIGIN 6399                
+POS_SEREFERRALS 6537                
+POS_PAGEREFS 6703                
+POS_SEARCHWORDS 7119                
+POS_KEYWORDS 7271                
+POS_MISC 2361                
+POS_ERRORS 7330                
+POS_CLUSTER 3752                
+POS_SIDER_404 7472                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211121120759 602 141643 11241632594456
+FirstTime 20211101000000
+LastTime 20211121120759
+LastUpdate 20211121133731 602 0 602 0 0
+TotalVisits 94                  
+TotalUnique 47                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 53                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 18 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 266 266 38117 353 368 29724426
+1 183 183 0 228 238 19367942
+2 111 111 213200 109 113 9735527
+3 168 432 17756418 127 137 10883866
+4 197 241 3431755 151 182 16571532
+5 139 140 266649 144 152 12307184
+6 141 141 87510 147 167 13149480
+7 137 137 87510 142 163 12994609
+8 112 112 0 124 125 10841318
+9 128 128 253650 131 144 11263746
+10 151 189 1230499 154 176 13265905
+11 167 205 2959569 157 185 13679971
+12 173 173 125615 177 190 15886001
+13 164 164 262530 167 177 14339646
+14 167 167 0 183 208 15952238
+15 185 185 0 201 204 16440817
+16 166 166 0 180 189 15312094
+17 175 175 0 204 225 17236223
+18 204 204 0 240 250 20407631
+19 227 227 0 279 282 23901240
+20 248 248 0 301 332 26519463
+21 236 236 0 307 311 26543625
+22 242 242 0 319 327 26932377
+23 251 251 1754409 299 305 25489055
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ru 4248 4248 3946368
+vn 44 423 20946905
+us 44 50 3399138
+in 1 1 87510
+cn 1 1 87510
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+AhrefsBot/ 4712 400655613 20211121120757 14
+Googlebot/ 243 7888739 20211121083206 16
+bingbot/ 45 1595738 20211121051512 20
+Googlebot\-Image/ 29 2539742 20211120213142 0
+bot[\s_+:,\.\;\/\\-] 6 175476 20211117210031 4
+nutch 4 175248 20211120105944 2
+unknown 3 342 20211119204817 3
+Go\-http\-client/ 2 228 20211103094135 2
+survey 1 38092 20211104111439 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+png 19 664329 0 0
+svg 2 46787 0 0
+html 104 9022488 0 0
+woff2 3 170340 0 0
+php 4228 3718431 0 0
+js 261 8952056 0 0
+css 81 2504350 0 0
+gif 2 22774 0 0
+jpeg 1 19402 0 0
+woff 1 1056 0 0
+Unknown 2 18211 0 0
+jpg 19 3327207 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+ios_iphone 42 4
+Unknown 4247 4247
+macosx15 2 2
+linux 38 32
+androidmarshmallow 18 0
+win10 376 53
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+chrome83.0.4103.97 37 31
+firefox89.0 1 1
+chrome92.0.4515.131 1 1
+chrome58.0.3029.110 1 1
+chrome88.0.4324.192 1 1
+chrome91.0.4472.124 3 3
+chrome95.0.4638.54 1 1
+safari14.1.1 42 4
+Unknown 4247 4247
+chrome95.0.4638.69 382 41
+firefox94.0 7 7
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+WordPress/5.8.2;_http://Annhushop.com 20211119231553
+WordPress/5.8.1;_https://Annhushop.com 20211111012836
+WordPress/5.8.2;_https://Annhushop.com 20211121120759
+WordPress/5.8.1;_http://Annhushop.com 20211110111834
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/5.8.2;_https://Annhushop.com 20211121120759
+WordPress/5.8.1;_http://Annhushop.com 20211110111834
+WordPress/5.8.2;_http://Annhushop.com 20211119231553
+WordPress/5.8.1;_https://Annhushop.com 20211111012836
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 42 42
+From1 0 0
+From2 1 1
+From3 7 7
+From4 4288 4673
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_vn 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 6
+http://cpanel.annhushop.com/wp-login.php 2 2
+http://cpanel.annhushop.com/wp/wp-login.php 1 1
+http://webmail.annhushop.com/wp-login.php 1 1
+http://cpanel.annhushop.com/blog/wp-login.php 1 1
+http://cpanel.annhushop.com/wordpress/wp-login.php 1 1
+http://lab.onsec.ru 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+404 56 2766217
+302 3 0
+401 9 315
+403 1 735
+206 2 2909431
+301 16 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 54
+/s%E1%BA%A3n%20ph%E1%BA%A9m/phao-boi-tron-hoat-hinh-cho-be-size-70/+84976082062 1 -
+/cua-hang/page/76/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/coi-thoi-canh-quat-cam-tay-nhieu-mau/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/combo-5-day-thun-dan-hoi-tap-mong-dui-5-size/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/bo-moc-treo-xe-may-mau-tron/+84976082062 1 -
+/danh-muc-san-pham/dung-cu-tap-gym/page/2/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tham-tap-yoga-loai-re/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/cho-bong-biet-hat-biet-di/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dieu-doraemon-kem-day/+84976082062 1 -
+/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/vong-xoay-keo-den-led/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dung-cu-tap-tay-re/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/mieng-dan-tap-co-bap-tay/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/ke-con-vet-chu-a-co-nhac/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tui-dung-tham-yoga-tron/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/combo-100-vong-tay-phat-sang/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/vi-do-choi-nha-bep-nhua-7315/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/mat-kinh-boi-nguoi-lon-phoenik/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dieu-ca-map-co-day/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/ao-phao-so-4-30-45kg/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tham-tap-yoga-2-lop-6mm-loai-xin/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/bong-tap-dam-luyen-phan-xa-cho-moi-lua-tuoi-85g/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/mat-na-lan-bien-cao-cap/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dung-cu-ho-tro-tap-lung-va-cot-song/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dan-piano-cho-be-no-517-27-mini/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/con-quay-hoa-loc-xoay-co-den/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/mu-trum-dau-di-boi-silicon-thoi-trang/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/bo-day-keo-11-chi-tiet-tap-the-duc/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/tro-choi-dap-go-nhat-ban-cho-be/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/cao-su-boc-chan-thang-xe-so/+84976082062 1 -
+/danh-muc-san-pham/dung-cu-di-boi/page/2/+84976082062 1 -
+/tu-khoa-san-pham/8-lo%CC%83/ 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/day-nhay-the-duc-can-go/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dai-that-lung-3-hang-11-khoa/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/combo-10-con-roi-ngon-tay-hinh-thu/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/combo-2-tham-lot-lot-tay-yoga-chu-nhat-vuong-17cm-x-17cm-x-7mm/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/phao-tay-tap-boi-bo-2-cai/+84976082062 1 -
+/chieu-dai/2m5/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/do-choi-con-sau-bang-go/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/combo-3-cai-quan-boi-cho-be-nam-3d/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dieu-hoat-hinh-90cm-kem-day/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/cao-su-lot-chong-xe-khoi-tray-chay-mau-chan-va-tranh-xuoc-nen-nha/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/vit-chay-xe-vespa/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/cao-su-boc-can-so-kingdrag-du-mau/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/bo-do-choi-nam-cham-xep-hinh-thong-minh-inox/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/phao-tron-acb-size-80/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/phao-tap-boi-luot-song-cho-be/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/balo-sung-nuoc-cho-be/+84976082062 1 -
+/danh-muc-san-pham/dung-cu-tap-gym/page/3/+84976082062 1 -
+/chieu-dai/1m8/+84976082062 1 -
+/tu-khoa-san-pham/3m/ 3 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/mat-kinh-boi-hinh-thu-ngo-nghinh/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/ga-ban-bay-dinh-tuong/+84976082062 1 -
+/s%E1%BA%A3n%20ph%E1%BA%A9m/dan-piano-organ-lq3798-co-mic/+84976082062 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 53
+185.215.199.29 4247 4247 3858858 20211121120759 20211121000237 /wp-cron.php
+123.21.220.19 36 339 18713089 20211102045604
+116.110.41.241 4 42 1117650 20211110115216
+125.235.231.119 4 42 1116166 20211117104649
+172.241.171.16 3 3 245700 20211103094141
+18.190.159.86 3 3 114333 20211112104423
+18.237.39.72 1 1 87510 20211107041407
+34.221.4.105 1 1 87510 20211104042338
+54.242.107.88 1 1 87585 20211115021044
+34.221.115.167 1 1 87510 20211115043705
+54.71.33.213 1 1 87510 20211104042232
+34.221.78.237 1 1 87510 20211111045139
+18.237.119.60 1 1 87510 20211106041539
+54.190.133.65 1 1 87510 20211108042326
+34.213.249.45 1 1 87510 20211121042116
+34.222.222.176 1 1 87510 20211116043757
+103.199.42.122 1 1 87510 20211111073215
+54.213.130.138 1 1 87510 20211114041904
+54.202.35.142 1 1 87510 20211115043745
+34.221.116.74 1 1 87510 20211106051511
+3.144.200.153 1 1 87510 20211119024823
+34.210.174.208 1 1 87510 20211104041555
+54.68.107.238 1 1 87510 20211109043105
+3.22.74.156 1 1 38105 20211111123709
+54.213.0.202 1 1 87510 20211112042057
+18.237.230.148 0 1 4119 
+35.162.162.158 0 1 4119 
+18.237.156.254 0 1 4119 
+34.221.196.198 1 1 91719 20211101043342
+54.149.35.225 1 1 87510 20211108042112
+35.86.145.11 0 1 4119 
+54.191.49.216 1 1 87510 20211105040645
+52.24.84.229 1 1 87510 20211114041929
+18.236.208.97 1 1 87510 20211106051631
+18.236.203.9 1 1 87510 20211114043239
+54.183.197.186 1 1 0 20211111024020
+54.172.108.66 1 1 7950 20211109090355
+54.244.14.117 1 1 87510 20211104041408
+35.167.216.115 1 1 87510 20211103041031
+52.40.139.10 1 1 87510 20211119041900
+5.79.219.115 1 1 87510 20211103112359
+34.209.143.217 1 1 87510 20211112042127
+34.215.44.102 1 1 87510 20211119041831
+54.244.62.139 1 1 87510 20211103041047
+52.24.3.160 0 1 4119 
+34.229.139.56 1 1 38105 20211110023812
+54.200.107.56 1 1 87510 20211102043830
+34.223.6.72 1 1 87510 20211113051658
+52.27.75.182 0 1 4119 
+3.145.43.37 1 1 38117 20211112003251
+34.222.166.237 1 1 87510 20211103040926
+35.86.137.36 1 1 87510 20211105040613
+223.81.144.127 1 1 87510 20211113065514
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20211101 489 489 275157 6
+20211102 428 732 18979738 8
+20211103 272 272 770760 9
+20211104 199 199 525060 6
+20211105 161 161 437550 3
+20211106 212 213 441669 4
+20211107 232 232 262530 2
+20211108 68 68 350040 8
+20211109 172 173 274599 5
+20211110 186 224 1330775 3
+20211111 186 187 392264 6
+20211112 126 126 590000 7
+20211113 119 120 354159 4
+20211114 203 203 437550 4
+20211115 169 169 437625 4
+20211116 129 130 266649 4
+20211117 177 215 1291186 2
+20211118 161 161 175020 2
+20211119 228 228 525060 4
+20211120 266 266 175020 1
+20211121 155 155 175020 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 2
+0s-30s 47
+30mn-1h 3
+1h+ 40
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/wp-cron.php 4182 0 47 47
+/ 97 8229473 38 38
+/wp-admin/admin-ajax.php 29 53 1 2
+/wp-login.php 5 130273 5 4
+/cua-hang/ 4 324082 1 1
+/wp-admin/load-scripts.php 4 537925 0 0
+/wp-content/themes/mts_ecommerce/fonts/fontawesome-webfont.woff2 3 170340 0 0
+/wp-admin/load-styles.php 3 1356448 0 0
+/wp-admin/customize.php 1 1438607 0 0
+/wp-json/wp/v2/widget-types 1 18209 0 0
+/wp-json/jetpack/v4/jitm 1 2 0 0
+/wordpress/wp-login.php 1 38115 0 0
+/wp-json/wp/v2/ 1 172613 0 0
+/wp-admin/about.php 1 140792 0 0
+/blog/wp-login.php 1 38110 0 1
+/danh-muc-san-pham/tai-nghe/ 1 77611 1 0
+/wp-admin/ 1 218709 0 0
+/wp/wp-login.php 1 38108 1 0
+/wp-content/plugins/jetpack/_inc/fonts/jetpack/jetpack.woff 1 1056 0 0
+END_SIDER

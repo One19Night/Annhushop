@@ -1,0 +1,370 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202108 will be lost/reset.
+# Last config file used to build this data file was /home/xlkamugl/tmp/awstats/ssl/awstats.annhushop.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2696                
+POS_VISITOR 7854                
+POS_DAY 9518                
+POS_DOMAIN 3599                
+POS_LOGIN 3935                
+POS_ROBOT 4090                
+POS_WORMS 4486                
+POS_EMAILSENDER 4617                
+POS_EMAILRECEIVER 4760                
+POS_SESSION 10378               
+POS_SIDER 10585               
+POS_FILETYPES 4895                
+POS_DOWNLOADS 5110                
+POS_OS 5158                
+POS_BROWSER 5294                
+POS_SCREENSIZE 5560                
+POS_UNKNOWNREFERER 5634                
+POS_UNKNOWNREFERERBROWSER 6019                
+POS_ORIGIN 6314                
+POS_SEREFERRALS 6452                
+POS_PAGEREFS 6596                
+POS_SEARCHWORDS 6774                
+POS_KEYWORDS 6926                
+POS_MISC 2360                
+POS_ERRORS 6985                
+POS_CLUSTER 3791                
+POS_SIDER_404 7149                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210901000002 118 28121 14278981223171
+FirstTime 20210801000346
+LastTime 20210831235825
+LastUpdate 20210901141151 118 0 117 0 0
+TotalVisits 104                 
+TotalUnique 40                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 41                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 7 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 164 164 15295 174 230 15922015
+1 211 211 0 231 265 18614095
+2 174 174 0 181 230 17049257
+3 214 214 0 205 247 19606378
+4 249 251 2553286 222 277 20871658
+5 217 217 0 238 290 20047681
+6 230 230 181433 237 282 20522381
+7 170 170 0 182 213 16881069
+8 182 182 0 188 231 17624267
+9 180 187 639307 203 258 18140509
+10 187 254 5695480 195 252 17555757
+11 204 204 2817231 184 226 18409406
+12 165 165 0 179 216 16766898
+13 175 231 5385776 173 227 17572688
+14 168 221 4768316 172 235 17725414
+15 188 188 0 199 252 16310886
+16 157 157 89798 163 223 16466282
+17 169 169 38076 182 232 18347492
+18 180 180 0 199 257 20262680
+19 184 184 91717 186 244 19667213
+20 188 188 0 203 257 18379048
+21 169 169 0 186 230 16951782
+22 184 184 91717 188 220 16912100
+23 220 220 2944148 195 247 19343129
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+ru 4462 4462 5908952
+us 31 33 2774796
+vn 23 206 15758732
+de 4 4 364781
+sc 3 3 215874
+mx 2 2 15295
+gb 2 2 91717
+cn 2 2 181433
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+AhrefsBot/ 2995 246317016 20210831235824 33
+bot[\s_+:,\.\;\/\\-] 2060 174536324 20210831223521 66
+Googlebot/ 398 11250658 20210831151919 23
+bingbot/ 260 2000502 20210831084033 46
+Googlebot\-Image/ 24 619787 20210831100725 0
+no_user_agent 3 217508 20210810052507 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+js 58 861905 0 0
+php 4406 15302 0 0
+png 23 1897857 0 0
+jpg 57 9981621 0 0
+css 44 1973125 0 0
+woff2 3 170340 0 0
+jpeg 3 58206 0 0
+html 120 10353224 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+win10 208 25
+macosx 3 3
+linuxandroid 2 2
+Unknown 4466 4466
+linux 35 33
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+chrome91.0.4472.114 1 1
+chrome90.0.4430.72 2 2
+chrome83.0.4103.97 31 29
+mozilla 1 1
+Unknown 4465 4465
+chrome70.0.3538.80 1 1
+chrome92.0.4515.131 143 17
+chrome69.0.3451.0 3 3
+firefox84.0 4 4
+chrome92.0.4515.159 63 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Python/3.7_aiohttp/3.7.3 20210826195132
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210824220723
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210805172416
+WordPress/5.8;_https://Annhushop.com 20210831235825
+WordPress/5.8;_http://Annhushop.com 20210829231521
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+WordPress/5.8;_http://Annhushop.com 20210829231521
+WordPress/5.8;_https://Annhushop.com 20210831235825
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20210824220723
+Python/3.7_aiohttp/3.7.3 20210826195132
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 39 39
+From1 0 0
+From2 0 0
+From3 3 3
+From4 4487 4672
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://www.w3schools.com 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+404 13 627826
+500 3 5833
+302 1 0
+301 61 0
+206 4 202097
+403 1 734
+503 5 171590
+401 6 210
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/tu-khoa-san-pham/8-lo%CC%83/ 1 -
+/tu-khoa-san-pham/liniu/ 1 -
+/tu-khoa-san-pham/o-dien/ 1 -
+/tu-khoa-san-pham/iphone/ 1 -
+/tu-khoa-san-pham/3-lo/ 1 -
+/wp-content/uploads/2021/02/C%C3%A0-Phe-Nguyen-Ch%C3%A1t-300x300.jpg 2 -
+/tu-khoa-san-pham/hato/ 1 -
+/tu-khoa-san-pham/s18/ 1 -
+/tu-khoa-san-pham/ln-610/ 1 -
+/tu-khoa-san-pham/3-tang/ 1 -
+/tu-khoa-san-pham/kenno/ 1 -
+/tu-khoa-san-pham/6-o/ 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 41
+185.215.199.29 4462 4462 5908952 20210831235825
+123.21.220.19 23 206 15758732 20210820143942
+137.226.113.44 4 4 364781 20210825105149
+165.231.37.137 3 3 215874 20210812233115
+201.124.153.97 2 2 15295 20210817004735
+51.158.127.123 1 1 0 20210824220618
+18.236.141.253 1 1 91717 20210830044553
+52.13.95.69 1 1 89716 20210808043034
+54.213.2.79 1 1 89716 20210801042924
+34.212.97.55 1 1 89716 20210807040831
+34.208.139.38 1 1 91717 20210826042051
+52.38.60.207 1 1 89716 20210809042811
+34.218.50.166 1 1 90297 20210812041259
+54.190.45.157 1 1 91717 20210831042618
+138.197.64.36 1 1 38076 20210805172416
+52.27.96.206 1 1 91717 20210829044408
+18.236.190.194 1 1 91717 20210827041111
+61.135.15.133 1 1 89716 20210807065055
+52.27.6.137 1 1 89716 20210810043351
+54.191.114.80 1 1 91717 20210819043446
+163.172.135.200 1 1 91717 20210824220723
+54.245.149.40 1 1 91717 20210816044129
+34.221.118.114 1 1 91717 20210828041307
+124.126.78.200 1 1 91717 20210828095824
+54.184.243.207 1 1 89716 20210810043420
+34.222.44.166 0 1 4119 
+52.88.98.5 1 1 89716 20210801045000
+52.39.188.25 1 1 89716 20210806042916
+34.213.180.251 1 1 91717 20210826043326
+54.185.57.0 1 1 90958 20210815043937
+52.13.83.33 1 1 90297 20210814040713
+18.236.77.112 1 1 91717 20210831042522
+35.165.38.84 1 1 91717 20210822042452
+34.222.50.254 1 1 91717 20210830060932
+18.237.228.100 1 2 95836 20210819043328
+54.149.126.150 1 1 91717 20210824042641
+35.167.47.91 1 1 89716 20210804041457
+128.14.234.165 1 1 91717 20210826195132
+54.190.7.179 1 1 91717 20210820043024
+54.212.74.41 1 1 90297 20210813042019
+52.11.107.107 1 1 91717 20210819043247
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210801 72 72 269148 4
+20210802 33 33 179432 5
+20210803 102 102 179432 4
+20210804 140 140 358946 4
+20210805 146 146 217508 3
+20210806 156 156 358864 4
+20210807 139 139 358864 4
+20210808 193 193 269148 2
+20210809 146 146 269148 3
+20210810 127 127 358448 3
+20210811 181 181 271981 3
+20210812 174 174 486765 3
+20210813 140 140 361188 3
+20210814 177 244 5692710 4
+20210815 130 130 273633 3
+20210816 94 94 275151 3
+20210817 145 201 5221058 3
+20210818 193 193 275232 2
+20210819 223 224 462704 4
+20210820 251 311 5682774 4
+20210821 202 202 183434 2
+20210822 136 136 275151 3
+20210823 161 161 183434 1
+20210824 136 136 366868 5
+20210825 165 165 275232 2
+20210826 131 131 458585 4
+20210827 118 118 366868 2
+20210828 115 115 366868 5
+20210829 102 103 279270 4
+20210830 157 157 366868 3
+20210831 144 144 366868 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 4
+30mn-1h 3
+0s-30s 40
+1h+ 53
+15mn-30mn 2
+2mn-5mn 1
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/wp-cron.php 4378 0 56 57
+/ 116 10064841 46 41
+/wp-admin/admin-ajax.php 26 7 0 4
+/wp-content/themes/mts_ecommerce/fonts/fontawesome-webfont.woff2 3 170340 0 0
+/cua-hang/ 3 236213 1 0
+/wp-login.php 2 15295 1 1
+/danh-muc-san-pham/nong-sa%cc%89n-tay-nguyen/ 1 52170 0 1
+END_SIDER

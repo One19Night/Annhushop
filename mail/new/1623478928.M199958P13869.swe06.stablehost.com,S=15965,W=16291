@@ -1,0 +1,326 @@
+Return-Path: <priyanshi019+bncBDLN3CX5SECRBXNESGDAMGQEZZ2UPLY@webtotalsolutions.com>
+Delivered-To: xlkamugl@swe06.stablehost.com
+Received: from swe06.stablehost.com
+	by swe06.stablehost.com with LMTP
+	id CAGTCZBSxGAtNgAAO1alzQ
+	(envelope-from <priyanshi019+bncBDLN3CX5SECRBXNESGDAMGQEZZ2UPLY@webtotalsolutions.com>)
+	for <xlkamugl@swe06.stablehost.com>; Sat, 12 Jun 2021 06:22:08 +0000
+Return-path: <priyanshi019+bncBDLN3CX5SECRBXNESGDAMGQEZZ2UPLY@webtotalsolutions.com>
+Envelope-to: info@annhushop.com
+Delivery-date: Sat, 12 Jun 2021 06:22:08 +0000
+Received: from mail-ed1-f69.google.com ([209.85.208.69]:46829)
+	by swe06.stablehost.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <priyanshi019+bncBDLN3CX5SECRBXNESGDAMGQEZZ2UPLY@webtotalsolutions.com>)
+	id 1lrx20-0003lc-Kc
+	for info@annhushop.com; Sat, 12 Jun 2021 06:22:08 +0000
+Received: by mail-ed1-f69.google.com with SMTP id df3-20020a05640230a3b029039179c0f290sf15238903edb.13
+        for <info@annhushop.com>; Fri, 11 Jun 2021 23:21:45 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1623478885; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=nBa23ge2XLbQ0kG1q80yLixir0rJNe9BHUBS2Vhi5Wl7XDSMSNY9fS8+iW8jjILh6q
+         iB2MYs1xjOx4NMpo59hq0TYcWrfMIvuPehhU9rhhkTvVvzT1N68UzEO/D2rqdNcTOhY4
+         pRGX0txnUd4F63U57pEIqwneTPPAZ/r+qpbVwaqpgeZYSayRJiPwg4X+UEhrHAiuSyee
+         1EMxxQ57oLqc+beOOuXKOeWAHjkpsySSyxH98dsmyq6IU3cwmUb1sk+87RGTIpNupNyo
+         HZWk9x761BQHkbtQUxUwgJRAByFmWCgipXvT+M3AfpXfESB0CkYTbVn1DK3DSey5qxU0
+         W5sw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:to:subject:message-id:date:from
+         :mime-version:sender:dkim-signature;
+        bh=7VpyB2EdPjbiT+fggOLmfQ7CANReWMFFX6kRdQOk85c=;
+        b=XUnRe4+PbjnuZGcDE36ttu8a4bkzFdwR2lamiYx++iPUWRjEXulPsf1YUdpxfCY7/0
+         wgne3pgdV7JZhQRAu6lwQAhz4HxpH4yX/R9Rxc8hOM8YoeuJa/VsDbWV6NahW7Llxz/d
+         iutWl4ANZm/tShxlVszKeAx10YNuX7NLN/CyRb1DXleZmagnjS5+f+4mX0SqQJCTm3HB
+         uFs5eZP5Icxj1Fy5BERPcdo/8QlUV1KSMQ4Qld8aYt3tsxxrPNIlmAPpv44GJ7InsOnj
+         v/XnvYWnQVuvJZE6NfwvAN1KHFYZ9aHGfxiRBcTVwvtZ+ammXXZFVAmd/oUNIeFTf1DI
+         ObDg==
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="FrM/9/A8";
+       spf=pass (google.com: domain of priyanshiagarwal221@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=priyanshiagarwal221@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=webtotalsolutions.com; s=google;
+        h=sender:mime-version:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe;
+        bh=7VpyB2EdPjbiT+fggOLmfQ7CANReWMFFX6kRdQOk85c=;
+        b=KWqvF0mDYkxZ5h/NsyR1BkXswUvld9IjKW0dYKNrsV25f5TknXhPCAIIL/R11pinPK
+         T/yBfWzg5S2OomaAl4dy16IrMcK2iHkTBdhAx8d27vB3x8VyS2UjZGBjDSEty0hK08qN
+         pHDxCNYTHV7ynlelpsXa6ZviAgwx09nw9Xcws=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=sender:x-gm-message-state:mime-version:from:date:message-id:subject
+         :to:x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:x-spam-checked-in-group:list-post:list-help
+         :list-archive:list-subscribe:list-unsubscribe;
+        bh=7VpyB2EdPjbiT+fggOLmfQ7CANReWMFFX6kRdQOk85c=;
+        b=qEmzFP5cPoddxvrgWCytcx+WlUbNKaq60Esh1iuuBWLk5bnuWmuBUKCj2KxvimDrmR
+         30ZoLJ8B7VPiOmHxWBU7321hmFxcKDAgL4aPyssqcgNCeP4HHBcJY+vJ6sXjIsYgfB24
+         YykVox0cNjMPdK/YJVoSltPJ1ek6N5cGNzxlm1kzT6F5ZCTP0fcs/m8oqEVg2XLzIHCR
+         nzDF0Dj8CBqewUnOQVkx5ZViqji0yGZFN4Fu0FJfQlikvfmoSFff25KY7Jkti80Vzgmm
+         Pb+88WP380/BEdnHzfavxvMiXAqIqVmM13of5uytStYTslH7yKQiLz6zMmqOoLUMFL2m
+         bkjQ==
+Sender: priyanshi019@webtotalsolutions.com
+X-Gm-Message-State: AOAM531/I5KmnGL3/0vwdUTc3fpG7nKIuRbVKR4iBW/eQsheE7vInFAY
+	GMz7LAviEW9VHdvBLCU2YbcvxQ==
+X-Google-Smtp-Source: ABdhPJytERnfV/gY2BaeaRCBeFJ15RGh7Gkze1HlwhH6bjyBj0yolAjgXNeH9Ika2DcsJFpLjR8+pQ==
+X-Received: by 2002:a05:6402:487:: with SMTP id k7mr7150940edv.315.1623478884936;
+        Fri, 11 Jun 2021 23:21:24 -0700 (PDT)
+X-BeenThere: priyanshi019@webtotalsolutions.com
+Received: by 2002:a17:906:4757:: with SMTP id j23ls4390659ejs.8.gmail; Fri, 11
+ Jun 2021 23:21:17 -0700 (PDT)
+X-Received: by 2002:a17:906:e4b:: with SMTP id q11mr6681454eji.404.1623478876920;
+        Fri, 11 Jun 2021 23:21:16 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1623478876; cv=none;
+        d=google.com; s=arc-20160816;
+        b=E4MhOVGHk26Rwdg/fwVK0CTf3vu6qhJYmDHVTDqDHhyYnV3DGSiilGEaASzB2Ysv06
+         GwsYX5HvOm56HgIUdadZIWGy6uGniHaHTcXSQt9VZTjaI2zmOejw4qmChtPKsDp5fsFj
+         xWGkOqTcwp4uyHxasxwDM+7sXzC1jbnZ7AZtidOyYYgF2h7jTWWXziwxN7k4IfL8KIy7
+         UY8VeMpnoArOY68X1kVIlI5Mec+rs8sdqCzleGpffMR/Jkbl8EDY8EB3lwNOQVFgSL8v
+         +agjwTEkJscioXI8f/zFoYgdHjUJhUa0zsrQFHvzzPkQayNUKy3fIzhUt58//ZQrTFcI
+         OqdA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:subject:message-id:date:from:mime-version:dkim-signature;
+        bh=7VpyB2EdPjbiT+fggOLmfQ7CANReWMFFX6kRdQOk85c=;
+        b=bd0FRCnMhQGMbUUA1DXgJm+N6l2u5v+jDIFzSIJZZ4znH8VuSvTTc/8dL+DhQvvjOi
+         grrEOiVvGyl07OXot6UFFHFJkmm9DsPmB/BTu4pW22R27nWVjbaV3opVmJV2B1flaU8c
+         gTb4VmR8Zedpe5MXHC55rCMjjHPkqKhFMNSghNEu0Q4v3sS95P5z88JCsiuPCyQCKHct
+         W234xny2be10MSGRzPwd5N8HJxCVjfbX92/ZIP6nPiSY2rXhLdufiZ1QRGqrq2QVv1Lz
+         BD9xF4mrQH//xWoTX69u5oICOsN+3QpEPZkZLwHPWsE6hqlfSnTMP3Lxs/OGvd40+jZw
+         zvYw==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b="FrM/9/A8";
+       spf=pass (google.com: domain of priyanshiagarwal221@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=priyanshiagarwal221@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id js6sor4585184ejc.25.2021.06.11.23.21.16
+        for <priyanshi019@webtotalsolutions.com>
+        (Google Transport Security);
+        Fri, 11 Jun 2021 23:21:16 -0700 (PDT)
+Received-SPF: pass (google.com: domain of priyanshiagarwal221@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+X-Received: by 2002:a17:906:5f99:: with SMTP id a25mr6833844eju.45.1623478876769;
+ Fri, 11 Jun 2021 23:21:16 -0700 (PDT)
+MIME-Version: 1.0
+From: priyanshi agarwal <priyanshiagarwal221@gmail.com>
+Date: Sat, 12 Jun 2021 11:51:05 +0530
+Message-ID: <CAJVB27a=_e=djr2d_eRWWEGn3E7sGtUQhkXpjeD6ajWmBOpJFA@mail.gmail.com>
+Subject: Upgrade existing Website!!
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000c0101805c48ba14b"
+Bcc: priyanshi019@webtotalsolutions.com
+X-Original-Sender: priyanshiagarwal221@gmail.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@gmail.com header.s=20161025 header.b="FrM/9/A8";       spf=pass
+ (google.com: domain of priyanshiagarwal221@gmail.com designates 209.85.220.41
+ as permitted sender) smtp.mailfrom=priyanshiagarwal221@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Precedence: list
+Mailing-list: list priyanshi019@webtotalsolutions.com; contact priyanshi019+owners@webtotalsolutions.com
+List-ID: <priyanshi019.webtotalsolutions.com>
+X-Spam-Checked-In-Group: priyanshi019@webtotalsolutions.com
+X-Google-Group-Id: 873551059779
+List-Post: <https://groups.google.com/a/webtotalsolutions.com/group/priyanshi019/post>,
+ <mailto:priyanshi019@webtotalsolutions.com>
+List-Help: <https://support.google.com/a/webtotalsolutions.com/bin/topic.py?topic=25838>,
+ <mailto:priyanshi019+help@webtotalsolutions.com>
+List-Archive: <https://groups.google.com/a/webtotalsolutions.com/group/priyanshi019/>
+List-Subscribe: <https://groups.google.com/a/webtotalsolutions.com/group/priyanshi019/subscribe>,
+ <mailto:priyanshi019+subscribe@webtotalsolutions.com>
+List-Unsubscribe: <mailto:googlegroups-manage+873551059779+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/webtotalsolutions.com/group/priyanshi019/subscribe>
+X-Spam-Status: No, score=3.9
+X-Spam-Score: 39
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "swe06.stablehost.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Greetings of the Day! We are an Online Website Consultancy
+    Services and Provides SEO, SMO, Web Design & Development Services at an affordable
+    price. 
+ Content analysis details:   (3.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  4.5 URIBL_DBL_SPAM         Contains a spam URL listed in the Spamhaus DBL
+                             blocklist
+                             [URIs: webtotalsolutions.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: webtotalsolutions.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [priyanshiagarwal221[at]gmail.com]
+  0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+                              CUSTOM_MED
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.2 FREEMAIL_FORGED_FROMDOMAIN 2nd level domains in From and
+                             EnvelopeFrom freemail headers are
+                             different
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: NO
+
+--000000000000c0101805c48ba14b
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+
+
+Greetings of the Day!
+
+
+
+We are an Online Website Consultancy Services and Provides SEO, SMO, Web
+Design & Development Services at an affordable price.
+
+
+
+We offer a variety of services that can satisfy your needs at an affordable
+cost.
+
+
+
+*Our Web Services: -*
+
+
+
+*Content Writing Services.*
+
+*Full SEO package (with plan and activities).*
+
+*New website for Business (in Drupal, Joomla, e-commerce, Wordpress
+Asp.net).*
+
+*PPC (pay per click).*
+
+*SMO (Facebook, Twitter, LinkedIn, YouTube and MySpace etc.).*
+
+*Upgrade existing Websites (with Flash, Graphic, PHP and other Content
+Management System).*
+
+*Website Design & Development Services.*
+
+
+
+May I know which Service are you interested in?
+
+
+
+If you are interested, then I can send you our full proposal, more detail,
+past work details, testimonials, affordable quotation, samples, price list
+with the best offer.
+
+
+
+*Thanks & Regards,*
+
+*Priyanshi*
+
+--000000000000c0101805c48ba14b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-fa=
+mily:&quot;Times New Roman&quot;,serif">Hello,</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">Greetings of the Day!</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">We are an Online Website
+Consultancy Services and Provides SEO, SMO, Web Design &amp; Development
+Services at an affordable price.</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">We offer a variety of services that
+can satisfy your needs at an affordable cost.</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b>Our Web Services: -</b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">Content
+Writing Services.</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">Full
+SEO package (with plan and activities).</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">New
+website for Business (in Drupal, Joomla, e-commerce, Wordpress Asp.net).</s=
+pan></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">PPC
+(pay per click).</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">SMO
+(Facebook, Twitter, LinkedIn, YouTube and MySpace etc.).</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">Upgrade
+existing Websites (with Flash, Graphic, PHP and other Content Management
+System).</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b><span style=3D"color:rgb(23,54,93)">Website
+Design &amp; Development Services.</span></b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><span style=3D"color:red">May I know
+which Service are you interested in?</span></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><span style=3D"color:black;background:yellow">If you=
+ are interested, then I can send you our full
+proposal, more detail, past work details, testimonials, affordable quotatio=
+n,
+samples, price list with the best offer.</span></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif">=C2=A0</p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b>Thanks &amp; Regards,</b></p>
+
+<p style=3D"margin:0in 0in 0.0001pt;font-size:12pt;font-family:&quot;Times =
+New Roman&quot;,serif"><b>Priyanshi</b></p></div>
+
+--000000000000c0101805c48ba14b--
